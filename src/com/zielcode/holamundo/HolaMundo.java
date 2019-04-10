@@ -203,8 +203,20 @@ public class HolaMundo {
 			System.out.println("e es menor o igual que 5");
 			e++;
 		}
+		System.out.println();
+		int[] numeros = new int [5];
+		
+		for (int c=0;  c <= 4; c++) {
+			numeros[c] = c;
+			System.out.println("numeros["+c+"]: "+ numeros[c] );
+		}
+		
+		for (int j : numeros) {
+			System.out.println(j);
+		}
 		
 		System.out.println("Continuamos con el flujo");
+		System.out.println("");
 		
 		
 			
